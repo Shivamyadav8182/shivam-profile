@@ -1,0 +1,151 @@
+
+body{
+    min-height:100vh;
+    margin:0;
+}
+
+.circle1{
+  
+    height: 200px;
+    width: 200px;
+   background-color: brown;
+   border-radius: 50%;
+    margin-left: 420px;
+    position: absolute;
+    margin-top:40px ;
+}
+
+
+.image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    border: 2px solid #bfbfbf;
+    padding: 80px;
+    position: absolute;
+    top: 32%;
+    left: 38%; 
+    background-color: rgba(0, 0, 0, 0.268);
+}
+
+.circle2{
+  
+     height: 200px;
+     width: 200px;
+   background-color: blue;
+   border-radius: 50%;
+   margin-left: 880px;
+   margin-top: 700px;
+   position: absolute;
+}
+
+.btn-share.btn-card:hover{
+   background-color:white;
+   color: rgba(0, 0, 0, 0.782);
+   border: 2px solid black;
+}
+
+
+.btn-follow.btn-card:hover{
+   background-color:#ffffffb9;
+   color:black;
+   border: 2px solid black;
+}
+
+.btn-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.bottom-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border: 2px solid #ffffff59;
+    width: 500px;
+    scale: 0;
+    background-color: #00000078;
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 20px 25px;
+    border-radius: 20px;
+    transition:0.5s ease-in-out;
+    z-index: 100;
+    
+    
+}
+.modal-header{
+    display: flex;
+    margin-bottom: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:6px ;
+    border-bottom: 6px;
+    border-bottom: 1px solid #ffffff88;
+}
+.active{
+    scale: 1;
+
+}
+
+/* .overlay{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.24);
+    top: 0;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    transition: 0.5s ease-in-out;
+    z-index: 9;
+
+}
+
+.overlayactive{
+    opacity: 1;
+    pointer-events: initial; 
+
+} */
+
+
+.icon-container{
+    display: flex;
+    gap: 65px;
+    margin-top: 15px;
+}
+
+.icon{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+}
+
+.icon:hover{
+    color: rgb(29, 29, 168);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
