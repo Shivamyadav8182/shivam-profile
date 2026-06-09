@@ -5,31 +5,37 @@ body{
    
 }
 
-.wapper{
-    width: 100vw;
+.wrapper{
     height: 100vh;
-    position: relative;  
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    line-height: 40px;
 }
 
 .circle1{
-    position: absolute;
-    top: 18%;
-    left: 28%;
 
-    width: 200px;
-    height: 200px;
+    position: fixed;
+    top: 15%;
+    left: 30%;
+    width: 13em;
+    height: 13em;
     border-radius: 50%;
-    background-color: brown;
-
-    animation: circle1Animate 15s ease-in-out infinite;
+    box-shadow: 0 0 50px #d84869;
+    background: linear-gradient(-25deg, #d84869,#f46641);
+    animation: circle1Animate 15s infinite;
     z-index: 1;
 }
+
 @keyframes circle1Animate{
     50%{
-        transform: scale(1.1) translate(20px, 20px);
+        left: 33%;
+        top: 4%;
+        scale: 1.11;
     }
 }
-
 .image img{
     width: 150px;
     height: 150px;
@@ -49,25 +55,25 @@ body{
 }
 
 .circle2{
-    position: absolute;
-    top: 58%;
-    left: 58%;
 
-    width: 230px;
-    height: 230px;
+    position: fixed;
+    top: 60%;
+    left: 55%;
+    width: 14.5em;
+    height: 14.5em;
     border-radius: 50%;
-
-    background: linear-gradient(-25deg,#786ad3,#8e6de3);
-    animation: circle2Animate 15s ease-in-out infinite;
+    box-shadow: 0 0 50px #786ad3;
+    background: linear-gradient(-25deg, #786ad3,#8e6de3);
+    animation: circle2Animate 15s infinite;
     z-index: 1;
 }
-
 @keyframes circle2Animate{
     50%{
-        transform: scale(1.1) translate(-20px, -20px);
+        left: 60%;
+        top: 50%;
+        scale: 1.11;
     }
 }
-
 
 .btn-share.btn-card:hover{
    background-color:white;
