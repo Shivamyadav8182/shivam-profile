@@ -2,7 +2,13 @@
 body{
     min-height:100vh;
     margin:0;
-    position:relative;
+   
+}
+
+.wapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;  
 }
 
 .circle1{
