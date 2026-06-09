@@ -51,7 +51,7 @@ body{
     background-color: rgba(0, 0, 0, 0.268);
 }
 
-..circle2{
+.circle2{
     position: absolute;
     right: 20%;
     bottom: 10%;
