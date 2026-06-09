@@ -12,24 +12,21 @@ body{
 }
 
 .circle1{
-    height: 200px;
-    width: 200px;
-    background-color: brown;
-    border-radius: 50%;
-    
- position: absolute;
-    top: 5%;
-    left: 20%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
 
-    animation: circle1Animate 15s infinite;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: brown;
+
+    animation: circle1Animate 15s ease-in-out infinite;
     z-index: 1;
 }
-
 @keyframes circle1Animate{
     50%{
-        left: 33%;
-        top: 4%;
-        transform: scale(1.11);
+        transform: scale(1.1) translate(20px, 20px);
     }
 }
 
