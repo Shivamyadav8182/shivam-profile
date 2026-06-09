@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile share model</title>
+    <title>Profile Share Modal | sawan yadav</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
-<body>  <div class = "wapper">
-     <div class="circle1"></div>
-     <div class="circle2"></div>
 
-     <div class="profile">
-        <div class="card">
-        <div class="image"> <img src="shivam photo.jpeg" alt="shivam photo"> </div>
-        <div class="user name">
-            <h1>Shivam yadav</h1></div>
-            <div class="founder">
-                <h2> Software Enginee </h2></div>
-                <div class="bottom-group">
-                    <button onclick="openmodal()" class="btn-share btn-card">
-                        <i class="fa-solid fa-share"></i>
-                        <div>share my profile</div></button>
-               <button class="btn-follow  btn-card"> follow me</button></div>
-     </div>
-     </div>  
-     </div>
+<body>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
 
-     <div class="modal">
-        <div class="modal-header">
-            <h1>share my profile</h1>
+    <div class="wrapper">
+        <div class="card-wrapper">
+            <div>
+                <img style="width: 135px; height: 127px; border-radius: 50%;  margin-top: 40px;"
+                    src=" " alt="user">
+            </div>
+            <div class="user-name" style="font-size:larger">
+                <h2>Shivam Yadav</h2>
+            </div>
+            <div class="designation" style="font-size:20px">
+                <h3>Software Engineer</h3>
+            </div>
+            <div class="botton-group">
+                <button onclick="openModal()" class="btn-share btn-card">
+
+                    <div> <i class="fa-solid fa-share"></i> share my profile</div>
+                </button>
+
+                <button class="btn-follow btn-card">Follow me</button>
+            </div>
         </div>
-        <i onclick="closemodal()" class="fa-solid fa-xmark close"></i>
+    </div>
 
-  
-    <h3>share this via</h3>
+    <!-- Modal Component -->
+    <div class="modal">
+        <div class="modal-header">
+            <h1>Share My Profile</h1>
+            <div style=" margin-left: 210px; cursor: pointer;">
+                <i onclick="closeModal()" class="fa-solid fa-x"></i>
+            </div>
+        </div>
+        <div style="margin: 20px;">
+            <h3>Share this via</h3>
+            <div class="icon-container">
+                <a href="https://www.linkedin.com/in/shivam-yadav-08751a358" target="_blank" class="icon" id="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Shivamyadav8182-hub" target="_blank" class="icon" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/shivamyadav08182/" target="_blank" class="icon" id="instagram">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://wa.me/917724860611" target="_blank" class="icon" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="mailto:shi8182yadav@gmail.com" class="icon" target="_blank" id="email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 
-    <div class="icon-container">
 
-    <a href="https://instagram.com/shivamyadav08182" class="icon" id="instagram" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-    </a>
 
-    <a href="https://wa.me/7724860611" class="icon" id="whatsapp" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
+    <!-- Overlay -->
+    <div class="overlay" onclick="closeModal()"></div>
 
-    <a href="https://youtube.com/@ShivamYadav-cb1tz" class="icon" id="youtube" target="_blank">
-        <i class="fa-brands fa-youtube"></i>
-    </a>
-
-    <a href="https://linkedin.com/in/https://www.linkedin.com/in/shivam-yadav-08751a358?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="icon" id="linkedin" target="_blank">
-        <i class="fa-brands fa-linkedin-in"></i>
-    </a>
-
-</div>
-   <div class="overlay" onclick="closemodal()"></div>
-</div>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
- <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="index.js"></script>
 </body>
-</html><index class="css"></index>
+
+</html>
