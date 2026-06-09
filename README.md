@@ -5,7 +5,7 @@
 I am a passionate Computer Science student with a strong interest in Web Development and Software Engineering. I enjoy learning new technologies, building practical projects, and strengthening my understanding of Computer Science fundamentals.
 
 ---
-<img Screenshot 2026-06-09 073430.png" width="250" alt="Shivam Yadav">
+<img src="Screenshot 2026-06-09 073430.png" width="250" alt="Shivam Yadav">
 ## 🚀 About Me
 
 - 🎓 First-Year B.Tech CSE Student
