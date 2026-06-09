@@ -2,6 +2,7 @@
 body{
     min-height:100vh;
     margin:0;
+    position:relative;
 }
 
 .circle1{
@@ -9,10 +10,10 @@ body{
     width: 200px;
     background-color: brown;
     border-radius: 50%;
-
-    position: absolute;
-    left: 420px;
-    top: 40px;
+    
+ position: absolute;
+    top: 5%;
+    left: 20%;
 
     animation: circle1Animate 15s infinite;
     z-index: 1;
@@ -46,25 +47,19 @@ body{
 
 .circle2{
     position: absolute;
-    left: 55%;
-    top: 60%;
+    right: -60px;
+    bottom: -60px;
 
-    width: 14.5em;
-    height: 14.5em;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
 
-    box-shadow: 0 0 50px #786ad3;
     background: linear-gradient(-25deg, #786ad3, #8e6de3);
-
     animation: circle2Animate 15s ease-in-out infinite;
-    z-index: 1;
 }
-
 @keyframes circle2Animate{
     50%{
-        left: 60%;
-        top: 50%;
-        transform: scale(1.11);
+        transform: scale(1.1) translate(-20px, -20px);
     }
 }
 
