@@ -13,8 +13,8 @@ body{
 
 .circle1{
     position: absolute;
-    top: 10%;
-    left: 15%;
+    top: 18%;
+    left: 28%;
 
     width: 200px;
     height: 200px;
@@ -36,28 +36,28 @@ body{
     border-radius: 50%;
     object-fit: cover;
 }
-
-.card {
+.card{
     height: 300px;
     width: 200px;
     border: 2px solid #bfbfbf;
     padding: 80px;
     position: absolute;
     top: 32%;
-    left: 38%; 
+    left: 38%;
     background-color: rgba(0, 0, 0, 0.268);
+    z-index: 2;
 }
 
 .circle2{
     position: absolute;
-    right: 20%;
-    bottom: 10%;
+    top: 58%;
+    left: 58%;
 
     width: 230px;
     height: 230px;
     border-radius: 50%;
 
-    background: linear-gradient(-25deg, #786ad3, #8e6de3);
+    background: linear-gradient(-25deg,#786ad3,#8e6de3);
     animation: circle2Animate 15s ease-in-out infinite;
     z-index: 1;
 }
