@@ -5,14 +5,15 @@ body{
 }
 
 .circle1{
-  
     height: 200px;
     width: 200px;
-   background-color: brown;
-   border-radius: 50%;
-    margin-left: 420px;
+    background-color: brown;
+    border-radius: 50%;
+
     position: absolute;
-    margin-top:40px ;
+    left: 420px;
+    top: 40px;
+
     animation: circle1Animate 15s infinite;
     z-index: 1;
 }
@@ -21,7 +22,7 @@ body{
     50%{
         left: 33%;
         top: 4%;
-        scale: 1.11;
+        transform: scale(1.11);
     }
 }
 
@@ -44,22 +45,26 @@ body{
 }
 
 .circle2{
-  
-     height: 200px;
-     width: 200px;
-   background-color: blue;
-   border-radius: 50%;
-   margin-left: 880px;
-   margin-top: 700px;
-   position: absolute;
-    animation: circle2Animate 15s infinite;
+    position: absolute;
+    left: 55%;
+    top: 60%;
+
+    width: 14.5em;
+    height: 14.5em;
+    border-radius: 50%;
+
+    box-shadow: 0 0 50px #786ad3;
+    background: linear-gradient(-25deg, #786ad3, #8e6de3);
+
+    animation: circle2Animate 15s ease-in-out infinite;
     z-index: 1;
 }
+
 @keyframes circle2Animate{
     50%{
         left: 60%;
         top: 50%;
-        scale: 1.11;
+        transform: scale(1.11);
     }
 }
 
