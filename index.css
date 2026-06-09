@@ -13,8 +13,17 @@ body{
     margin-left: 420px;
     position: absolute;
     margin-top:40px ;
+    animation: circle1Animate 15s infinite;
+    z-index: 1;
 }
 
+@keyframes circle1Animate{
+    50%{
+        left: 33%;
+        top: 4%;
+        scale: 1.11;
+    }
+}
 
 .image img{
     width: 150px;
@@ -43,7 +52,17 @@ body{
    margin-left: 880px;
    margin-top: 700px;
    position: absolute;
+    animation: circle2Animate 15s infinite;
+    z-index: 1;
 }
+@keyframes circle2Animate{
+    50%{
+        left: 60%;
+        top: 50%;
+        scale: 1.11;
+    }
+}
+
 
 .btn-share.btn-card:hover{
    background-color:white;
