@@ -51,10 +51,10 @@ body{
     background-color: rgba(0, 0, 0, 0.268);
 }
 
-.circle2{
+..circle2{
     position: absolute;
-    right: -60px;
-    bottom: -60px;
+    right: 20%;
+    bottom: 10%;
 
     width: 230px;
     height: 230px;
@@ -62,7 +62,9 @@ body{
 
     background: linear-gradient(-25deg, #786ad3, #8e6de3);
     animation: circle2Animate 15s ease-in-out infinite;
+    z-index: 1;
 }
+
 @keyframes circle2Animate{
     50%{
         transform: scale(1.1) translate(-20px, -20px);
