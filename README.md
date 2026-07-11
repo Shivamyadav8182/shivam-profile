@@ -6,6 +6,13 @@ I am a passionate Computer Science student with a strong interest in Web Develop
 
 ---
 <img src="Screenshot 2026-06-09 073430.png" width="250" alt="Shivam Yadav">
+
+Portfolio:
+https://shivam-profile-n9yguwf1a-shivamyadav8182.vercel.app
+
+GitHub:
+https://github.com/Shivamyadav8182
+
 ## 🚀 About Me
 
 - 🎓 First-Year B.Tech CSE Student
